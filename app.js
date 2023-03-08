@@ -13,6 +13,14 @@ const db=require('./config/key');
 app.use(expressLayouts);
 app.use('/assets',express.static('./assets'));
 
+// //------------ DB Configuration ------------//
+// const db = require('./config/key').MongoURI;
+
+// //------------ Mongo Connection ------------//
+// mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+//     .then(() => console.log("Successfully connected to MongoDB"))
+//     .catch(err => console.log(err));
+
 // app.use(express.static(__dirname + '/assets'));
 
 app.set('view engine','ejs');
