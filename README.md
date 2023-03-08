@@ -18,6 +18,7 @@
 
 ### The server should run at http://localhost:5556
 
+### The render hosted link at https://habittrackernodejsapp.onrender.com/
 
 ### Folder structure
 
